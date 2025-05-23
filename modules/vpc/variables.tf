@@ -12,3 +12,8 @@ variable "cidr_block" {
   description = "CIDR block for the VPC"
   type        = string
 }
+
+variable "ig_name" {
+  description = "Name of the Internet Gateway"
+  type        = string
+}
