@@ -1,7 +1,7 @@
 region     = "eu-west-3"
-vpc_name   = "pauline-vpc"
+vpc_name   = "pgb-vpc"
 cidr_block = "10.16.0.0/16"
-ig_name    = "pauline-ig"
+ig_name    = "pgb-ig"
 
 env_and_subnets = {
   "web" = [
